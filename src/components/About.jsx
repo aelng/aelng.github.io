@@ -14,7 +14,7 @@ const About = () => {
                 sequence={[
                 // Same substring at the start will only be typed out once, initially
                 ' ELNAGMI',
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                1000, // wait 1s before replacing "Mice" with "Hamsters" test
                 ' ELN',
                 1000,
                 ' ELNAGMI :D',
