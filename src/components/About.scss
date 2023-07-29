@@ -1,0 +1,58 @@
+.about {
+    
+    margin-top: 35px;
+    margin-left: 200px;
+    width: 34vw;
+    line-height: 70px;
+    padding: 60px 30px;
+    border-radius: 40px 40px 40px 40px;
+    animation-name: fadeleft;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    z-index: 1;
+    backdrop-filter: blur(1px);
+    background-color: rgba(134, 11, 11, 0.6);
+}
+
+.about-right {
+    margin-top: 35px;
+    margin-left: 40px;
+    width: 35vw;
+    line-height: 40px;
+    padding: 60px 30px;
+    border-radius: 40px 40px 40px 40px;
+    animation-name: fadeleft;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    z-index: 1;
+    backdrop-filter: blur(1px);
+    background-color: rgba(134, 11, 11, 0.6);
+  }
+
+  .container {
+    display: flex;
+    width: 200px;
+    padding: 20px;
+    z-index: 100;
+  }
+
+  .home {
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .a {
+    font-size: larger;
+    text-decoration: none;
+    color: #F38B30;
+    transition: color 0.3s ease;
+    word-wrap: break-word;
+  }
+  
+  .a:hover {
+    color: rgb(219, 39, 36);
+  }
+
+  i {
+    font-style: normal;
+  }
