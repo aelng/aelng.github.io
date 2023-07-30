@@ -7,14 +7,14 @@ const About = () => {
   return (
     <div>
       <div className="container">
-        <div className='about'>
+        <div className='about' id='about'>
           <h1 className='rounded-full text-[#F38B30] text-4xl'>I'm</h1>
           <h2 className='rounded-full text-[#F38B30] text-7xl mt-8'>ALI 
                 <TypeAnimation
                 sequence={[
                 // Same substring at the start will only be typed out once, initially
                 ' ELNAGMI',
-                1000, // wait 1s before replacing "Mice" with "Hamsters" test
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
                 ' ELN',
                 1000,
                 ' ELNAGMI :D',
