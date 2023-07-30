@@ -56,3 +56,14 @@
   i {
     font-style: normal;
   }
+
+  .foot {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    z-index: 100;
+    color: #F38B30;
+    background-color: rgba(134, 11, 11, 0.6);
+  }
